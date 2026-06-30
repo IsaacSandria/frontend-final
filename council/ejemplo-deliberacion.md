@@ -39,10 +39,6 @@ de venta y refuerza el mensaje de IA. Pero si en el piloto falla, quema credibil
 terceros: necesitas consentimiento explícito y saber dónde se procesa la voz
 (datos personales). Sin eso, no sale a producción. `RIESGO crítico: consentimiento y procesamiento de voz de terceros.`
 
-**Act. Hugo Reyna (Seguros):** Mientras el dictado solo llene marca/modelo/año
-y el usuario confirme antes de cotizar, no hay riesgo de tarifación. Exijo un
-paso de confirmación. `OPORTUNIDAD: aceptable con confirmación previa a la cotización.`
-
 ---
 
 ## Fase 2 — Cruce (extracto)
@@ -56,7 +52,7 @@ paso de confirmación. `OPORTUNIDAD: aceptable con confirmación previa a la cot
 
 ## Veredicto del Moderador
 
-**CONSENSOS (7/9):** La voz es valiosa como diferenciador, pero **no está lista
+**CONSENSOS (6/8):** La voz es valiosa como diferenciador, pero **no está lista
 para v1 tal como está** (botón sin estados, sin fallback, sin consentimiento).
 
 **TENSIONES:** Marketing (Camila) la quiere ya por su valor de venta; Fábrica
@@ -67,7 +63,8 @@ para v1 tal como está** (botón sin estados, sin fallback, sin consentimiento).
    con input de texto sólido.
 2. v1.1: implementar `useVoiceInput` con (a) fallback a texto, (b) estados UI
    escuchando/error (Theo), (c) consentimiento explícito y due diligence del
-   proveedor de speech-to-text (Sofía), (d) confirmación antes de cotizar (Hugo).
+   proveedor de speech-to-text (Sofía), (d) confirmación del texto reconocido
+   antes de cotizar.
 3. Marketing usa la voz como mensaje **solo** tras validarla en piloto.
 
 **CONFIANZA:** alta.

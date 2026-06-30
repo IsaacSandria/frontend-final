@@ -6,9 +6,11 @@ prioridades y sesgos. La idea es lanzar la misma pregunta o entregable al
 consejo y contrastar las opiniones para tomar mejores decisiones de producto,
 diseño y arquitectura.
 
-> Contexto del proyecto: frontend en **React + Vite + Tailwind v4** de un
-> *multicotizador de seguros* ("Cotiza con IA", SeriousTech) con estética
-> *liquid glass*.
+> Contexto: **SeriousTech** es una **fábrica de software** capaz de construir
+> cualquier tipo de producto. Este consejo evalúa cualquier software que la
+> fábrica desarrolle. El producto de referencia para los ejemplos es
+> **SeriousSeguros** — un *multicotizador de seguros* con IA ("Cotiza con IA"),
+> frontend en **React + Vite + Tailwind v4** con estética *liquid glass*.
 
 ## ¿Para qué sirve?
 
@@ -25,7 +27,7 @@ diseño y arquitectura.
 2. Pásalo a cada miembro usando su `system_prompt` (ver `council.json`).
 3. El **Moderador** sintetiza: consensos, desacuerdos y una recomendación.
 
-## Miembros del consejo (9)
+## Miembros del consejo (8)
 
 | # | Persona | Rol | Pregunta que siempre hace |
 |---|---------|-----|---------------------------|
@@ -37,12 +39,10 @@ diseño y arquitectura.
 | 6 | **Camila Ortega** | Marketing (ex-fábricas de software) | ¿Cómo lo vendo y a quién? |
 | 7 | **Theo Lindqvist** | Diseñador UX/UI de producto | ¿El usuario entiende y confía? |
 | 8 | **Sofía Benavides** | Ciberseguridad y privacidad | ¿Dónde se filtran los datos? |
-| 9 | **Act. Hugo Reyna** | Actuario / experto en seguros | ¿La cotización es correcta y legal? |
 
-> Los tres últimos (UX, seguridad y dominio asegurador) son los perfiles que
-> añadí por iniciativa propia: en un producto de seguros con IA son los que más
-> riesgo cubren — confianza del usuario, fuga de datos sensibles y exactitud
-> regulatoria de las cotizaciones.
+> Los dos últimos (UX y seguridad) son perfiles que añadí por iniciativa propia:
+> son transversales a **cualquier** software que construya la fábrica — confianza
+> del usuario y protección de datos aplican a todo producto, no solo a seguros.
 
 ## Cómo delibera el consejo
 
@@ -51,5 +51,9 @@ diseño y arquitectura.
 2. **Cruce** — cada miembro responde al que más lo contradice.
 3. **Veredicto del Moderador** — consensos, tensiones abiertas y una
    recomendación accionable con su nivel de confianza.
+
+> Cuando el producto evaluado **no** sea SeriousSeguros, sustituye los ejemplos
+> de seguros/carriers por el dominio que corresponda; los perfiles y criterios
+> del consejo son agnósticos al tipo de software.
 
 Ver la rúbrica completa en `rubric.md` y los prompts en `council.json`.
